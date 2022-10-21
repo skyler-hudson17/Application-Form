@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Application Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+            <h1>Application</h1>
+            <p>Please Fill out the required fields</p>
+            <form action="">
+
+                <!-- Contact Information -->
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="first-name">First Name: <input type="text" name="first-name" id="first-name" placeholder="John"></label>
+                    <label for="last-name">Last Name: <input type="text" name="last-name" id="last-name" placeholder="Doe"></label>
+                    <label for="email">Email: <input type="email" name="email" id="email" placeholder="johndoe123@gmail.com"></label>
+                    <label for="phone">Phone Number: <input type="text" id="phone" placeholder="(123)-456-789"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="age">Age: <input type="number" min="16" max="100" value="16" id="age"></label>
+                    <label for="DOB">DOB: <input type="date" id="DOB"></label>
+                    <label for="last-4-ssn">Last 4 SSN: <input type="password" id="last-4-ssn"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Past work experiences</legend>
+                    <section>
+                        <label for="job-name">Job 1 Name: <input type="text" id="job-name" placeholder="Pizza Hut"></label>
+                        <label for="job-pos">Job Position: <input type="text" name="job-pos" id="job-pos" placeholder="Cashier"></label>
+                        <label for="job-tasks">Job Tasks: <input type="text" name="job-tasks" id="job-tasks" placeholder="Customer Service"></label>
+                    </section>
+                    <hr>
+                    <section>
+                        <label for="job-name">Job 2 Name: <input type="text" id="job-name" placeholder="Pizza Hut"></label>
+                        <label for="job-pos">Job Position: <input type="text" name="job-pos" id="job-pos" placeholder="Cashier"></label>
+                        <label for="job-tasks">Job Tasks: <input type="text" name="job-tasks" id="job-tasks" placeholder="Customer Service"></label>
+                    </section>
+                    <hr>
+                    <section>
+                        <label for="job-name">Job 3 Name: <input type="text" id="job-name" placeholder="Pizza Hut"></label>
+                        <label for="job-pos">Job Position: <input type="text" name="job-pos" id="job-pos" placeholder="Cashier"></label>
+                        <label for="job-tasks">Job Tasks: <input type="text" name="job-tasks" id="job-tasks" placeholder="Customer Service"></label>
+                    </section>
+                    <hr class="bottom-line">
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+    </body>
+</html>
